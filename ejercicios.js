@@ -17,31 +17,34 @@ clases = [{
     horaFinal: '16:00',
 }]
 
-// console.log('Ejercicio 1, Input: ');
-// console.log(array);
-// console.log('Ejercicio 1, Output: ');
-// console.log(first(array));
+console.log('Ejercicio 1, Input: ');
+console.log(array);
+console.log('Ejercicio 1, Output: ');
+console.log(first(array));
 
-// console.log('Ejercicio 2, Input: ');
-// console.log(3,6);
-// console.log('Ejercicio 2, Output: ');
-// console.log(second(3,6));
+console.log('Ejercicio 2, Input: ');
+console.log(3,6);
+console.log('Ejercicio 2, Output: ');
+console.log(second(3,6));
 
-// console.log('Ejercicio 3, Input: ');
-// console.log(array2,2);
-// console.log('Ejercicio 3, Output: ');
-// console.log(three(array2,2));
+console.log('Ejercicio 3, Input: ');
+console.log(array2,2);
+console.log('Ejercicio 3, Output: ');
+console.log(three(array2,2));
 
-// console.log('Ejercicio 4, Input: ');
-// console.log(array3);
-// console.log('Ejercicio 4, Output: ');
-// console.log(four(array3));
+console.log('Ejercicio 4, Input: ');
+console.log(array3);
+console.log('Ejercicio 4, Output: ');
+console.log(four(array3));
 
 
-// console.log(five("([)]"));
+console.log('Ejercicio 5, Input: ');
+console.log(array3);
+console.log('Ejercicio 5, Output: ');
+console.log(five("([)]"));
+
 
 console.log(six(clases));
-
 
 function first(array){
     let result = [];
@@ -104,13 +107,13 @@ function six(array){
    for(let i=0; i<array.length; i++){ 
        if (classroom.length > 0) {
             for(let j=0; j<classroom.length; j++) {
-                console.log(j, classroom[j])
+                // console.log(j, classroom[j])
                 // if (classroom[j].horaInicial > array[i].horaInicial)
             }
        } else {
            classroom.push(array[i])
        }
    }
-   console.log(classroom)
+//    console.log(classroom)
    return classroom.length;
 }
